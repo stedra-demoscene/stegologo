@@ -1,0 +1,207 @@
+{
+ "version": 2,
+ "key": {
+  "text": "mark:guilloche",
+  "font": "/Users/stedra/Documents/phase-stegano/fonts/DejaVuSans-Bold.ttf",
+  "size_pt": 0.0,
+  "margin_mm": 3.0,
+  "chip_mm": 0.6,
+  "n_bits": 128,
+  "seed": 4321,
+  "pilot_ratio": 0.3,
+  "reference_npz": null,
+  "code": "golay_crc16",
+  "line_spacing": 1.2,
+  "align": "left",
+  "pilot_frac": 0.25,
+  "z_accept": 4.0,
+  "region": "sheet4/mark/guilloche50/20"
+ },
+ "region": "sheet4/mark/guilloche50/20",
+ "page": [
+  55.999971215413254,
+  55.999971215413254
+ ],
+ "n_chips": 1908,
+ "n_sym": 288,
+ "n_bits": 128,
+ "n_samples": 57185,
+ "ref_ppm": 20.0,
+ "params": {
+  "W": 0.2,
+  "step": 0.01,
+  "hp_chips": 4.0,
+  "warp_deg": 4,
+  "corner_mask_mm": 0.5,
+  "clip_mad": 3.0,
+  "n_iter": 4,
+  "z_accept": 4.0,
+  "homography": true
+ },
+ "arrays": {
+  "P": {
+   "dtype": "f64",
+   "shape": [
+    57185,
+    2
+   ],
+   "offset": 0,
+   "nbytes": 914960
+  },
+  "N": {
+   "dtype": "f64",
+   "shape": [
+    57185,
+    2
+   ],
+   "offset": 914960,
+   "nbytes": 914960
+  },
+  "w0": {
+   "dtype": "f64",
+   "shape": [
+    57185
+   ],
+   "offset": 1829920,
+   "nbytes": 457480
+  },
+  "cid": {
+   "dtype": "i32",
+   "shape": [
+    57185
+   ],
+   "offset": 2287400,
+   "nbytes": 228740
+  },
+  "ca": {
+   "dtype": "i32",
+   "shape": [
+    57185
+   ],
+   "offset": 2516140,
+   "nbytes": 228740
+  },
+  "cb": {
+   "dtype": "i32",
+   "shape": [
+    57185
+   ],
+   "offset": 2744880,
+   "nbytes": 228740
+  },
+  "wa": {
+   "dtype": "f64",
+   "shape": [
+    57185
+   ],
+   "offset": 2973620,
+   "nbytes": 457480
+  },
+  "wb": {
+   "dtype": "f64",
+   "shape": [
+    57185
+   ],
+   "offset": 3431100,
+   "nbytes": 457480
+  },
+  "nc": {
+   "dtype": "u8",
+   "shape": [
+    57185
+   ],
+   "offset": 3888580,
+   "nbytes": 57185
+  },
+  "valid0": {
+   "dtype": "u8",
+   "shape": [
+    57185
+   ],
+   "offset": 3945765,
+   "nbytes": 57185
+  },
+  "esyn": {
+   "dtype": "f64",
+   "shape": [
+    57185
+   ],
+   "offset": 4002950,
+   "nbytes": 457480
+  },
+  "tk": {
+   "dtype": "f64",
+   "shape": [
+    41
+   ],
+   "offset": 4460430,
+   "nbytes": 328
+  },
+  "contour_n": {
+   "dtype": "i32",
+   "shape": [
+    33
+   ],
+   "offset": 4460758,
+   "nbytes": 132
+  },
+  "contour_chip_len": {
+   "dtype": "f64",
+   "shape": [
+    33
+   ],
+   "offset": 4460890,
+   "nbytes": 264
+  },
+  "pilot": {
+   "dtype": "f64",
+   "shape": [
+    1908
+   ],
+   "offset": 4461154,
+   "nbytes": 15264
+  },
+  "pn": {
+   "dtype": "f64",
+   "shape": [
+    1908
+   ],
+   "offset": 4476418,
+   "nbytes": 15264
+  },
+  "pilot_mask": {
+   "dtype": "u8",
+   "shape": [
+    1908
+   ],
+   "offset": 4491682,
+   "nbytes": 1908
+  },
+  "bit_of": {
+   "dtype": "i32",
+   "shape": [
+    1908
+   ],
+   "offset": 4493590,
+   "nbytes": 7632
+  },
+  "golay": {
+   "dtype": "u8",
+   "shape": [
+    4096,
+    24
+   ],
+   "offset": 4501222,
+   "nbytes": 98304
+  },
+  "dref": {
+   "dtype": "u8",
+   "shape": [
+    1120,
+    1120
+   ],
+   "offset": 4599526,
+   "nbytes": 1254400
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "marks": [
+  {
+   "name": "opart50",
+   "label": "opart 50 mm",
+   "assets": [
+    "mark_M1_15",
+    "mark_M1_20"
+   ],
+   "sym": 1,
+   "ppm": [
+    8,
+    26
+   ]
+  },
+  {
+   "name": "guilloche50",
+   "label": "guilloche 50 mm",
+   "assets": [
+    "mark_M2_15",
+    "mark_M2_20"
+   ],
+   "sym": 1,
+   "ppm": [
+    8,
+    26
+   ]
+  },
+  {
+   "name": "cartouche50",
+   "label": "cartouche 50 mm",
+   "assets": [
+    "mark_M3_15",
+    "mark_M3_20"
+   ],
+   "sym": 1,
+   "ppm": [
+    8,
+    26
+   ]
+  },
+  {
+   "name": "rings40",
+   "label": "rings 40 mm",
+   "assets": [
+    "mark_M4_15"
+   ],
+   "sym": 1,
+   "ppm": [
+    8,
+    26
+   ]
+  },
+  {
+   "name": "opart40",
+   "label": "opart 40 mm",
+   "assets": [
+    "mark_M5_15"
+   ],
+   "sym": 1,
+   "ppm": [
+    8,
+    26
+   ]
+  },
+  {
+   "name": "cert_rings",
+   "label": "certification rings",
+   "assets": [
+    "mark_C_mark"
+   ],
+   "sym": 1,
+   "ppm": [
+    8,
+    26
+   ]
+  }
+ ]
+}

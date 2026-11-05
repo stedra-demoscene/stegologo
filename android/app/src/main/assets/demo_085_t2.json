@@ -1,0 +1,207 @@
+{
+ "version": 2,
+ "key": {
+  "text": "cool logo",
+  "font": "fonts/Poppins-Bold.ttf",
+  "size_pt": 35.55858126150037,
+  "margin_mm": 2.7493748398067304,
+  "chip_mm": 0.549874967961346,
+  "n_bits": 44,
+  "seed": 4321,
+  "pilot_ratio": 0.3,
+  "reference_npz": null,
+  "code": "golay_crc16",
+  "line_spacing": 1.15,
+  "align": "center",
+  "pilot_frac": 0.25,
+  "z_accept": 4.0,
+  "region": "demo/text2"
+ },
+ "region": "demo/text2",
+ "page": [
+  62.91390678267921,
+  18.231191117151532
+ ],
+ "n_chips": 947,
+ "n_sym": 120,
+ "n_bits": 44,
+ "n_samples": 25914,
+ "ref_ppm": 20.0,
+ "params": {
+  "W": 0.2,
+  "step": 0.01,
+  "hp_chips": 4.0,
+  "warp_deg": 4,
+  "corner_mask_mm": 0.45822913996778836,
+  "clip_mad": 3.0,
+  "n_iter": 4,
+  "z_accept": 4.0,
+  "homography": true
+ },
+ "arrays": {
+  "P": {
+   "dtype": "f64",
+   "shape": [
+    25914,
+    2
+   ],
+   "offset": 0,
+   "nbytes": 414624
+  },
+  "N": {
+   "dtype": "f64",
+   "shape": [
+    25914,
+    2
+   ],
+   "offset": 414624,
+   "nbytes": 414624
+  },
+  "w0": {
+   "dtype": "f64",
+   "shape": [
+    25914
+   ],
+   "offset": 829248,
+   "nbytes": 207312
+  },
+  "cid": {
+   "dtype": "i32",
+   "shape": [
+    25914
+   ],
+   "offset": 1036560,
+   "nbytes": 103656
+  },
+  "ca": {
+   "dtype": "i32",
+   "shape": [
+    25914
+   ],
+   "offset": 1140216,
+   "nbytes": 103656
+  },
+  "cb": {
+   "dtype": "i32",
+   "shape": [
+    25914
+   ],
+   "offset": 1243872,
+   "nbytes": 103656
+  },
+  "wa": {
+   "dtype": "f64",
+   "shape": [
+    25914
+   ],
+   "offset": 1347528,
+   "nbytes": 207312
+  },
+  "wb": {
+   "dtype": "f64",
+   "shape": [
+    25914
+   ],
+   "offset": 1554840,
+   "nbytes": 207312
+  },
+  "nc": {
+   "dtype": "u8",
+   "shape": [
+    25914
+   ],
+   "offset": 1762152,
+   "nbytes": 25914
+  },
+  "valid0": {
+   "dtype": "u8",
+   "shape": [
+    25914
+   ],
+   "offset": 1788066,
+   "nbytes": 25914
+  },
+  "esyn": {
+   "dtype": "f64",
+   "shape": [
+    25914
+   ],
+   "offset": 1813980,
+   "nbytes": 207312
+  },
+  "tk": {
+   "dtype": "f64",
+   "shape": [
+    41
+   ],
+   "offset": 2021292,
+   "nbytes": 328
+  },
+  "contour_n": {
+   "dtype": "i32",
+   "shape": [
+    26
+   ],
+   "offset": 2021620,
+   "nbytes": 104
+  },
+  "contour_chip_len": {
+   "dtype": "f64",
+   "shape": [
+    26
+   ],
+   "offset": 2021724,
+   "nbytes": 208
+  },
+  "pilot": {
+   "dtype": "f64",
+   "shape": [
+    947
+   ],
+   "offset": 2021932,
+   "nbytes": 7576
+  },
+  "pn": {
+   "dtype": "f64",
+   "shape": [
+    947
+   ],
+   "offset": 2029508,
+   "nbytes": 7576
+  },
+  "pilot_mask": {
+   "dtype": "u8",
+   "shape": [
+    947
+   ],
+   "offset": 2037084,
+   "nbytes": 947
+  },
+  "bit_of": {
+   "dtype": "i32",
+   "shape": [
+    947
+   ],
+   "offset": 2038031,
+   "nbytes": 3788
+  },
+  "golay": {
+   "dtype": "u8",
+   "shape": [
+    4096,
+    24
+   ],
+   "offset": 2041819,
+   "nbytes": 98304
+  },
+  "dref": {
+   "dtype": "u8",
+   "shape": [
+    365,
+    1259
+   ],
+   "offset": 2140123,
+   "nbytes": 459535
+  }
+ }
+}
